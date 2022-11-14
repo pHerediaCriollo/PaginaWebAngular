@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 const router: Routes =[
   {
     path: 'test',
-    component: TestComponent
   }
 ];
 
@@ -18,7 +17,6 @@ const router: Routes =[
   imports: [
     BrowserModule,
     AppRoutingModule
-    RouterModule.forRoot(router)
   ],
   providers: [],
   bootstrap: [AppComponent]

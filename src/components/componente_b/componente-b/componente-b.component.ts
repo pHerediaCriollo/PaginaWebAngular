@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-componente-b',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponenteBComponent implements OnInit {
 
-  constructor() { }
+  constructor(private nav:Router) { }
 
   ngOnInit(): void {
   }
-
+  atras(){
+this.nav.navigate([''])
+  }
+  Navegacion2(){
+    this.nav.navigate(['web3'])
+      }
 }
