@@ -12,7 +12,7 @@ export class ComponenteAComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  navegacion1(){
+  navegacion(){
     this.router.navigate(['web2'])
   }
   navegacion2(){

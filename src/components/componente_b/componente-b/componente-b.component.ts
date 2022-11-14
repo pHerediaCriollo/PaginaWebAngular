@@ -18,4 +18,5 @@ this.nav.navigate([''])
   Navegacion2(){
     this.nav.navigate(['web3'])
       }
+  
 }
