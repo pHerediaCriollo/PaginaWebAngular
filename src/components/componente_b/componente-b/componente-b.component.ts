@@ -8,15 +8,18 @@ import { Router } from '@angular/router';
 })
 export class ComponenteBComponent implements OnInit {
 
-  constructor(private nav:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  atras(){
-this.nav.navigate([''])
+  Navegacion(){
+    this.router.navigate([''])
   }
   Navegacion2(){
-    this.nav.navigate(['web3'])
-      }
+    this.router.navigate(['web3'])
+  }
+  Navegacion3(){
+    this.router.navigate(['web4'])
+  }
   
 }

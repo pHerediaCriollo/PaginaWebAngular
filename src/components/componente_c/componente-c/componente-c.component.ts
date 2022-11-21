@@ -12,7 +12,13 @@ export class ComponenteCComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  atras(){
+  Navegacion(){
     this.nav.navigate([''])
-      }
+  }
+  Navegacion2(){
+    this.nav.navigate(['web2'])
+  }
+  Navegacion3(){
+    this.nav.navigate(['web4'])
+  }
 }
